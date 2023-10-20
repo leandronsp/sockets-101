@@ -1,0 +1,6 @@
+services:
+  ruby:
+    image: ruby
+    volumes:
+      - .:/app
+    working_dir: /app

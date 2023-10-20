@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm myfifo
+mkfifo myfifo
+
+cat myfifo &
+echo "Hello World" > myfifo
